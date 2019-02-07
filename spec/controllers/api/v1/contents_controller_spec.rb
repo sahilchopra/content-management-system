@@ -6,7 +6,7 @@ RSpec.describe Api::V1::ContentsController, type: :controller do
   let(:json) { JSON.parse(response.body) }
 
   before(:each) do
-    @content = create(:content, status: 1)
+    @content = create(:content, status: :published)
   end
 
   describe 'GET /contents' do
