@@ -1,15 +1,12 @@
 
-## Available Scripts
+## UI of Content Management System
 
-In the project directory, you can run:
+  Steps to runs the app in the development mode
+ -> Clone it
+ -> run npm install
+ -> then npm start.
 
-### `npm start`
+### Set URL of server
 
 Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-### `npm test`
-
-### `npm run build`
-
-
+Change ROOT_URL [https://github.com/sahilchopra/content-management-system/blob/master/content-ui/src/actions/index.js#L7) in this file.
